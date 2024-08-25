@@ -9,6 +9,11 @@ class Tree(object):
     def set_age(self, age):
         self.age = age
 
+    def set_weight(self, weight):
+        self.weight = weight
+
+
 t = Tree('Neem', 100)
 t.set_age(101)
-t.details()
+t.set_weight(500)
+print(t.weight)
