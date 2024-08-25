@@ -1,11 +1,10 @@
 class Tree(object):
-    def __init__(self):
-        pass
+    def __init__(self, name):
+        self.name = name
 
     def details(self):
-        pass
+        print('This is a {} tree'.format(self.name))
 
 
-t = Tree()
-print(t)
-print(t.details())
+t = Tree('Neem')
+t.details()
